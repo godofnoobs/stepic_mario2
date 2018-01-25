@@ -4,8 +4,26 @@
         <title>TODO supply a title</title>
         <meta charset="windows-1251">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="pyramid.js"></script>
     </head>
     <body>
-        <div class="container"></div>
+        <div class="container">
+            <div class="header">
+                <span>Brick Symbol: </span>
+                <select size="1" id="fill_char">
+                    <option value="#">#</option>
+                    <option value="X">X</option>
+                    <option value="$">$</option>
+                    <option value="@">@</option>
+                </select>
+                <span>How high? </span>
+                <input id="high" type="range" min="1" max="20" step="1" value="1" list="tickmarks">
+                <span id="value">&nbsp;&nbsp;&nbsp;1</span>
+            </div>
+            <div class="canvas">
+
+            </div>
+        </div>
     </body>
 </html>

@@ -5,11 +5,15 @@ span {
     position: relative;
     top: 7px;
 }
+#value {
+    display: inline-block;
+    text-align: right;
+    width: 1em;
+}
 .container {
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
-    height: 500px;
     outline: 2px solid goldenrod;
 }
 .header {
@@ -18,4 +22,13 @@ span {
     background-color: gainsboro;
     padding-top: 15px;
     text-align: center;
+}
+.canvas {
+    text-align: right;
+    padding-top: 2em;
+    padding-right: 35%;
+    padding-bottom: 2em;
+}
+.stair {
+    font-weight: bold;
 }
